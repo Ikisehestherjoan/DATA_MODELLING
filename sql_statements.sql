@@ -11,3 +11,14 @@ renter_name VARCHAR(50) NOT NULL,
 renter_email VARCHAR(50),
 renter_no VARCHAR(50) 
 );
+
+CREATE TABLE IF NOT EXISTS car(
+car_id INT PRIMARY KEY,
+model VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS date_tabs(
+date_id INT PRIMARY KEY,
+pickup_date DATE NOT NULL,
+return_date DATE  
+);
