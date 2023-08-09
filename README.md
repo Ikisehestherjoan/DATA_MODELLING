@@ -1,4 +1,4 @@
-# BIBBY CAR RENTALS_MODELS
+# BIBBY CAR RENTALS
 `_Cruizeride_`
 <img
   src="https://github.com/Ikisehestherjoan/DATA_MODELLING/blob/main/Audi%20car.jpg"
