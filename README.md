@@ -1,7 +1,7 @@
 # DATA_MODELS
 Cruizeride
 <img
-  src="/path/to/Audi car.jpg"
+  src="https://github.com/Ikisehestherjoan/DATA_MODELLING/blob/main/Audi%20car.jpg"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
