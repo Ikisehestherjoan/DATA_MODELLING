@@ -1,5 +1,10 @@
 # DATA_MODELS
 Cruizeride
+<img
+  src="/path/to/Audi car.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 A car rental enterprise maintains a comprehensive record of its rental operations within a compact database structure, organized as tables. This company, in operation since 2021, has successfully facilitated the rental of over 1,000 vehicles to a customer base exceeding 3,000 individuals. The company has approached me with the task of transferring their complete rental history into a Data Warehouse to facilitate streamlined analytical processes.
 
