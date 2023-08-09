@@ -1,5 +1,5 @@
-# DATA_MODELS
-Cruizeride
+# BIBBY CAR RENTALS_MODELS
+`_Cruizeride_`
 <img
   src="https://github.com/Ikisehestherjoan/DATA_MODELLING/blob/main/Audi%20car.jpg"
   alt="Alt text"
