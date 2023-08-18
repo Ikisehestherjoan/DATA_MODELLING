@@ -14,6 +14,8 @@ renter_no VARCHAR(50)
 
 CREATE TABLE IF NOT EXISTS car(
 car_id INT PRIMARY KEY,
+costprice FLOAT4  NOT NULL,
+priceperhr FLOAT4  NOT NULL,
 model VARCHAR(100) NOT NULL
 );
 
@@ -33,8 +35,6 @@ return_date DATE
 	
 CREATE TABLE IF NOT EXISTS price_tab(
 price_id INT PRIMARY KEY,
-costprice FLOAT4  NOT NULL,
-priceperhr FLOAT4  NOT NULL,
 totalrentperhr INT NOT NULL, 
 date_id INT,
 statue_id INT,
@@ -49,10 +49,10 @@ VALUES(1,3.5,'Yes','returned'),
 (3,4,'No','not-returned'),
 (4,4,'Yes','returned');
 
-INSERT INTO car(car_id,model)
-VALUES(1,'Toyota vios 1.5 AT White pearl'),
-(2,'Toyota Yaris 1.3 EMT' ),
-(3,'Toyota FJ Cruiser 4.) V6');
+INSERT INTO car(car_id,costprice,priceperhr, model)
+VALUES(1,38000,50,'Toyota vios 1.5 AT White pearl'),
+(2,42000,50'Toyota Yaris 1.3 EMT' ),
+(3,35000,25'Toyota FJ Cruiser 4.) V6');
 
 
 
@@ -70,10 +70,10 @@ VALUES(1,'03/10/2022','04/10/2022'),
 	(3,'06/10/2022',NULL),
 	(4,'08/10/2022','09/10/2022');
 
-INSERT INTO price_tab(price_id,costprice,priceperhr,totalrentperhr,date_id,Statue_id,car_id,renter_id)
-VALUES(1,38000,50,15,1,1,1,1),
-	  (2,42000,42,20,1,2,2,2),
-	   (3,35000,25,5,2,2,3,3),
-	   (4,35000,42,12,3,3,2,4),
-	  (5,35000,25,14,4,5,4,3);
+INSERT INTO price_tab(price_id,totalrentperhr,date_id,Statue_id,car_id,renter_id)
+VALUES(1,15,1,1,1,1),
+	  (2,20,1,2,2,2),
+	   (3,5,2,2,3,3),
+	   (4,12,3,3,2,4),
+	  (5,14,4,5,4,3);
 
